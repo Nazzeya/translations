@@ -9,15 +9,15 @@ const routes: Routes = [
     // {
     //     path: '', component: SomeAppComponent,
     // },
-    // {
-    //   path: '', component: MultipleFilesComponent
-    // },
+    {
+      path: '', component: MultipleFilesComponent
+    },
     // {
     //   path: '', component: AllLangVersionComponent
     // },
-    {
-      path: '', component: OneLangVersionComponent
-    }
+    // {
+    //   path: '', component: OneLangVersionComponent
+    // }
 ];
 
 @NgModule({
