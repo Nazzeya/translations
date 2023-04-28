@@ -1,0 +1,10 @@
+<h1>Version 3</h1>
+<select [(ngModel)]="currentLang">
+    <option *ngFor="let lang of languages" [value]="lang.code">{{ lang.name }}</option>
+</select>
+
+<h3>{{ hello | translateAll: currentLang}}</h3>
+<h3>{{ 'GOODBYE' | translateAll: currentLang}}</h3>
+<h3>{{ 'WELCOME' | translateAll: currentLang}}</h3>
+<h3>{{ 'THANK_YOU' | translateAll: currentLang}}</h3>
+

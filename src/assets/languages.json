@@ -1,0 +1,13 @@
+{
+    "languages":
+    [{ 
+        "value": "en", 
+        "name": "English" 
+    },{ 
+        "value": "ru", 
+        "name": "Русский" 
+    },{ 
+        "value": "kz", 
+        "name": "Қазақ" 
+    }]
+}

@@ -1,0 +1,10 @@
+<h1>Version 2</h1>
+<div class="translate-label">
+    <select [(ngModel)]="currentLang" (change)="changeLanguage()">
+        <option *ngFor="let lang of languages" [value]="lang.code">{{ lang.name }}</option>
+    </select>
+    <h3>{{ 'HELLO' | translatev2 }}</h3>
+    <h3>{{ 'WELCOME' | translatev2 }}</h3>
+    <h3>{{ 'GOODBYE' | translatev2 }}</h3>
+    <h3>{{ 'THANK_YOU' | translatev2 }}</h3>
+</div>
